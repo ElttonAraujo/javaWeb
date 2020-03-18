@@ -33,6 +33,7 @@ public class AddUserController implements Controller{
 		String[] ddd = req.getParameterValues("ddd[]");
 		String[] number = req.getParameterValues("number[]");
 		String[] type = req.getParameterValues("type[]");
+
 		
 		
 		for(int i = 0; i<ddd.length;i++) {
